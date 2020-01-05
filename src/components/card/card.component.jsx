@@ -30,7 +30,9 @@ class Card extends React.Component {
                     It's all about that amazing Screen and Battery
                 </div>
                 <div className='postInfo'>
-                    <div className='posterPic' />
+                    <div className='posterPic'>
+                        <img alt='person' src='https://tedconfblog.files.wordpress.com/2015/01/tomato_eyes.png?w=900' />
+                    </div>
                     <div className='posterInfo'>
                         <div className='posterNameReviews'>
                             <div className='posterName'>

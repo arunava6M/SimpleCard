@@ -3,6 +3,11 @@
     font-size : 12px;
     color : #000000;
 }
+@mixin imageStyle{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
 
 .card
 {
@@ -32,11 +37,16 @@ margin-top: 10%;
     //   background-color: red;
       width : 100%;
         .posterPic{
-            
+            position: relative;
+            overflow: hidden;
             background : #FBB03B;
             width : 20px;
             height : 20px;
             border-radius: 50%;
+            img{
+                @include imageStyle;
+                height: 100%;
+            }
             
         }
         .posterInfo{
@@ -89,9 +99,7 @@ margin-top: 10%;
     background-size: cover;
     
     img{
-        position: absolute;
-        width: 100%;
-        object-fit: cover;
+        @include imageStyle;
     }
   }
   .postFooter{
