@@ -34,7 +34,7 @@ class Card extends React.Component {
                     <div className='posterInfo'>
                         <div className='posterNameReviews'>
                             <div className='posterName'>
-                                Arunava
+                                Arunava Mondal
                         </div>
                             <span className='reviews'>
                                 {this.state.reviews} Reviews
