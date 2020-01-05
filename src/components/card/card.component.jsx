@@ -27,7 +27,7 @@ class Card extends React.Component {
         return (
             <div className='card' >
                 <div className='postHeader'>
-                    It's all about that amazing Screen and Battery
+                    It's all about that amazing Dial and Battery
                 </div>
                 <div className='postInfo'>
                     <div className='posterPic'>
@@ -49,10 +49,7 @@ class Card extends React.Component {
                     </div>
                 </div>
                 <div className='postPara'>
-                    <p>It is a long established fact that a reader will be distracted by the readable
-content of a page when looking at its layout. The point of using Lorem Ipsum
-is that it has a more-or-less normal distribution of letters, as opposed to using
- 'Content here, content here', making it look..<span className='readMore' style={{ color: 'blue' }}>(read more)</span></p>
+                    <p>Even with regular flagship specs, OnePlus Land-phones typically have better performance than the top flagships from big companies. The result is a telephone that feels faster and more powerful than any other Land-phone I've used this year..<span className='readMore' style={{ color: 'blue' }}>(read more)</span></p>
                 </div>
                 <div className='postPic'>
                     <img alt='Post' src={'https://englishlive.ef.com/blog/wp-content/uploads/sites/2/2015/05/english-telephone-phrases-1024x683.jpg'} />
